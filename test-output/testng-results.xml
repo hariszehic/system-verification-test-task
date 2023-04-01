@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-01T21:51:10 CEST" name="Default Suite" finished-at="2023-04-01T21:51:18 CEST" duration-ms="7918">
+    <groups>
+    </groups>
+    <test started-at="2023-04-01T21:51:10 CEST" name="system-verification-test-task" finished-at="2023-04-01T21:51:18 CEST" duration-ms="7918">
+      <class name="webTests.testCases.EhsItemSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:webTests.testCases.EhsItemSearchTest@4278a03f]" started-at="2023-04-01T21:51:10 CEST" name="setup" finished-at="2023-04-01T21:51:12 CEST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:webTests.testCases.EhsItemSearchTest@4278a03f]" started-at="2023-04-01T21:51:12 CEST" name="driverSetup" finished-at="2023-04-01T21:51:12 CEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="verificationOfItemList()[pri:0, instance:webTests.testCases.EhsItemSearchTest@4278a03f]" started-at="2023-04-01T21:51:12 CEST" name="verificationOfItemList" finished-at="2023-04-01T21:51:13 CEST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfItemList -->
+        <test-method signature="verificationOfSpecificItems()[pri:1, instance:webTests.testCases.EhsItemSearchTest@4278a03f]" started-at="2023-04-01T21:51:13 CEST" name="verificationOfSpecificItems" finished-at="2023-04-01T21:51:15 CEST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfSpecificItems -->
+        <test-method signature="verificationOfSearchItemsMethod()[pri:2, instance:webTests.testCases.EhsItemSearchTest@4278a03f]" started-at="2023-04-01T21:51:15 CEST" name="verificationOfSearchItemsMethod" finished-at="2023-04-01T21:51:18 CEST" duration-ms="3150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfSearchItemsMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:webTests.testCases.EhsItemSearchTest@4278a03f]" started-at="2023-04-01T21:51:18 CEST" name="teardown" finished-at="2023-04-01T21:51:18 CEST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- webTests.testCases.EhsItemSearchTest -->
+    </test> <!-- system-verification-test-task -->
+  </suite> <!-- Default Suite -->
+</testng-results>
