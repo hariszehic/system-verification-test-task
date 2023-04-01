@@ -1,7 +1,6 @@
 package utils;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,6 +10,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class BasePage {
+
     public WebDriver driver;
     public WebDriverWait wait;
 

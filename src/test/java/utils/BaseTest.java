@@ -13,7 +13,7 @@ public class BaseTest {
     WebDriver _driver;
 
     @BeforeClass
-    public void setup () {
+    public void setup() {
         _driver = new ChromeDriver();
         _driver.manage().window().maximize();
         Path webSite = Paths.get("Test Automation Task//Test Automation Task//Application//EHS.html");
@@ -21,7 +21,7 @@ public class BaseTest {
     }
 
     @AfterClass
-    public void teardown () {
+    public void teardown() {
         _driver.quit();
     }
 
