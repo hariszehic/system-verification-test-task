@@ -4,7 +4,7 @@ This project has the purpose of completing the task for the job interview at Sys
 2. Install IntelliJ, in the setup you will be asked to select which languages you want to use, select Java
 3. Your PC should have Java installed, the SDK that is used here is 19
 4. The following plugins should be installed in IntelliJ you navigate to File -> Settings -> Plugins -> Marketspace: Maven, TestNG
-5. Use the SSH from git to import the project
+5. Use the HTTPS from git to import the project
 6. On the right side select Maven and refresh to import dependencies
 7. Click Build in the top navigation and select Rebuild Project
 8. In the Maven window on the right side expand the Lifecyle package and double click install
